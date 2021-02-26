@@ -41,4 +41,4 @@ services:
       - ./front/app:/usr/src/app
     command: 'yarn dev'
     ports:
-      - "4001:3000"
+      - "80:3000"
